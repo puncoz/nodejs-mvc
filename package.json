@@ -1,0 +1,20 @@
+{
+  "name": "mobileapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sujan Amatya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.9"
+  }
+}
