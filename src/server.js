@@ -2,7 +2,6 @@ import express        from "express"
 import bodyParser     from "body-parser"
 import cors           from "cors"
 import methodOverride from "method-override"
-import Database       from "./database"
 import { AppConfig }  from "./config"
 import routes         from "./routes"
 
@@ -18,9 +17,6 @@ app.use(cors())
 
 // setup the method override
 app.use(methodOverride("_method"))
-
-// Initialize Database
-Database.init()
 
 // Load routes
 routes(app)
